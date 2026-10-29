@@ -1,0 +1,17 @@
+build/
+reports/
+*.exe
+*.o
+__pycache__/
+
+*:Zone.Identifier
+/prepare.py
+/make_matrix.py
+/matrix_timings.csv
+/results/search_checks.txt
+
+*:Zone.Identifier
+/prepare.py
+/make_matrix.py
+/matrix_timings.csv
+/results/search_checks.txt

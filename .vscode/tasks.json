@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Configure Release",
+      "type": "process",
+      "command": "cmake",
+      "args": [
+        "-S",
+        ".",
+        "-B",
+        "build",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ]
+    },
+    {
+      "label": "Build seminars",
+      "type": "process",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "build",
+        "-j"
+      ],
+      "dependsOn": "Configure Release",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Run linear",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/linear",
+      "args": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run binary",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/binary",
+      "args": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run buckets",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/buckets",
+      "args": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run matrix_benchmark",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/matrix_benchmark",
+      "args": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

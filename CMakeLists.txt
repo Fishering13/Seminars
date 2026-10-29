@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(Seminars LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+foreach(name linear binary buckets)
+    add_executable(${name} SEMINARS/Seminar_5/${name}.cpp)
+endforeach()
+add_executable(matrix_benchmark SEMINARS/Seminar_6/matrix_benchmark.cpp)

@@ -1,0 +1,14 @@
+linear: hit-rate=0: found=0: OK
+linear: hit-rate=0.5: found=500: OK
+linear: hit-rate=1: found=1000: OK
+linear: empty, boundary and repeated values: OK
+binary: hit-rate=0: found=0: OK
+binary: hit-rate=0.5: found=500: OK
+binary: hit-rate=1: found=1000: OK
+binary: empty, boundary and repeated values: OK
+buckets: hit-rate=0: found=0: OK
+buckets: hit-rate=0.5: found=500: OK
+buckets: hit-rate=1: found=1000: OK
+buckets: empty, boundary and repeated values: OK
+matrix: n=1,2,3,10; all six orders match: OK
+matrix: independent known 2x2 product with nonzero initial A: OK
