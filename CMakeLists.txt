@@ -6,3 +6,8 @@ foreach(name linear binary buckets)
     add_executable(${name} SEMINARS/Seminar_5/${name}.cpp)
 endforeach()
 add_executable(matrix_benchmark SEMINARS/Seminar_6/matrix_benchmark.cpp)
+
+find_package(Threads REQUIRED)
+add_executable(seminar7 SEMINARS/Seminar_7/threads.cpp)
+target_link_libraries(seminar7 PRIVATE Threads::Threads)
+add_executable(seminar8 SEMINARS/Seminar_8/analysis.cpp)

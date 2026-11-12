@@ -1,0 +1,32 @@
+SEMINAR 8 | operation counts and measured time | automatic input
+1 Mystery | n sum multiplications | loop_ms formula_ms
+10000 333383335000 10000 | 0.006398 0.000033 OK
+100000 333338333350000 100000 | 0.062807 0.000021 OK
+1000000 333333833333500000 1000000 | 0.688409 0.000032 OK
+2 Secret | n original_comparisons pair_comparisons | milliseconds
+1 0 0 | 0.000047 0.000042 OK
+2 2 1 | 0.000048 0.000074 OK
+5 8 6 | 0.000046 0.000060 OK
+10000 19998 14998 | 0.014331 0.031676 OK
+100000 199998 149998 | 0.167637 0.286054 OK
+1000000 1999998 1499998 | 1.519158 3.551275 OK
+3 Enigma | n symmetric_comparisons first_mismatch_comparisons
+1 0 0 OK
+100 4950 1 OK
+500 124750 1 OK
+1000 499500 1 OK
+4 Matrix product | n original_additions improved_additions | milliseconds
+1 1 0 | 0.000390 0.000109 OK
+32 32768 31744 | 0.020574 0.020205 OK
+64 262144 258048 | 0.206285 0.204868 OK
+128 2097152 2080768 | 2.120855 1.990065 OK
+256 16777216 16711680 | 18.429373 17.107456 OK
+5 Binary | n bits iterations
+1 1 0 OK
+2 2 1 OK
+3 2 1 OK
+255 8 7 OK
+256 9 8 OK
+1024 11 10 OK
+18446744073709551615 64 63 OK
+All checks passed. Checksum=333567896455519304

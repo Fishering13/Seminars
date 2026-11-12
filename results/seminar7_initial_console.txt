@@ -1,0 +1,13 @@
+SEMINAR 7 | GCC 15.2.0 | hardware threads=12 | used=12 | median of 5 runs
+STAGES n=800 | stage threads median_ms speedup | check
+1         1         184.242    1.000    OK
+2        12          46.345    3.975    OK
+3        12          37.851    4.868    OK
+5         4         219.388    0.840    OK
+6        12          44.917    4.102    OK
+SCALING | n 1thread_ms 4threads_ms T1/T4 | check
+300   9.111    1.757    5.185    OK
+500   32.842    12.388    2.651    OK
+800   168.635    64.169    2.628    OK
+1500   1751.078    998.404    1.754    OK
+All matrices match exactly. Timing with flag includes wake-up and join.

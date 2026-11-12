@@ -78,6 +78,34 @@
         "clear": true
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Run seminar7",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/seminar7",
+      "options": {
+        "cwd": "/home/fisher/projects/Seminars/results"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run seminar8",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/seminar8",
+      "options": {
+        "cwd": "/home/fisher/projects/Seminars/results"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
     }
   ]
 }
