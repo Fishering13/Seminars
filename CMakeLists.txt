@@ -11,3 +11,6 @@ find_package(Threads REQUIRED)
 add_executable(seminar7 SEMINARS/Seminar_7/threads.cpp)
 target_link_libraries(seminar7 PRIVATE Threads::Threads)
 add_executable(seminar8 SEMINARS/Seminar_8/analysis.cpp)
+
+add_executable(seminar9 SEMINARS/Seminar_9/main.cpp)
+add_executable(seminar10 SEMINARS/Seminar_10/main.cpp)

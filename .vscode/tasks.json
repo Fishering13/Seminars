@@ -106,6 +106,28 @@
         "clear": true
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Run seminar9",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/seminar9",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run seminar10",
+      "type": "process",
+      "command": "/home/fisher/projects/Seminars/build/seminar10",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
     }
   ]
 }
